@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/prevue_head_icon"
+        android:layout_width="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/top_small"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@id/prevue_head_icon"
+        android:src="@drawable/img_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_alignBottom="@id/prevue_head_icon"
+        android:padding="5dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/headview_movename"
+            android:text="预告片题目"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/headview_title"
+            android:layout_marginTop="5dp"
+            android:text="预告片标题"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
